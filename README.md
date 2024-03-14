@@ -6,4 +6,5 @@ FIR low pass filter:
 3. Write top-level .v file to exemplify fir and ROM
 4. Perform top-level engineering simulations
 ***
+1. MATLAB generation of COE files for fir filter coefficients and signal generator
 
