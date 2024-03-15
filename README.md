@@ -21,7 +21,9 @@ Use sin signal generator to validate the performance of our FIR:
 
 ## 2. Generate FIR IP core and ROM IP core (vivado)
 Overview of the structure:
-![IP core-w100](./fig/IP_core.png)
+![IP core-w100](./fig/IP_core1.png)
+![IP core-w100](./fig/IP_core2.png)
+![IP core-w100](./fig/IP_core3.png)
 
 ```
 
