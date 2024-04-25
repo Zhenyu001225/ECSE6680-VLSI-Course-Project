@@ -19,3 +19,8 @@ In the outlined algorithm, we implement a random projection method to predict th
 ![FIR Setting-w100](./fig/hd.png)
 
 To further enhance the performance of the algorithm, we have meticulously designed a specialized hardware architecture. This architecture is strategically optimized to facilitate faster algorithm implementation, featuring an array of processing elements (PEs) organized in a crossbar configuration for efficient data routing and parallel processing capabilities. The integration of a pre-store module with the memory ensures a seamless flow of data, while the control signals are fine-tuned to synchronize the activities of the computational units, which include multiply (Mul) and addition (Add) operations, among others. Essential functions such as exponentiation, division, and quantization are allocated to dedicated components within the pre-store module, enabling a highly efficient execution pipeline that significantly reduces latency and enhances throughput. This custom hardware setup is engineered to meet the intensive computational demands of the algorithm, ensuring rapid data processing and a higher overall efficiency.
+
+## 4. Results
+
+We compared with some baselines:
+
