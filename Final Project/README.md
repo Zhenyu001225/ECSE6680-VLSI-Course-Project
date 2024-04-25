@@ -6,3 +6,13 @@ As the arithmetic intensity is low, the operations are not compute-bound, but ra
 
 ![FIR Setting-w100](./fig/roofline.png)
 
+One viable strategy for enhancing performance within this architecture is to minimize the volume of data transfer between the off-chip memory and the computation units. By reducing the need for frequent memory accesses, which currently act as a bottleneck due to limited memory bandwidth, we can shift the operational point closer to the compute-bound region. This approach can potentially elevate performance closer to the system's peak computational capabilities, as shown in the roofline model, and ultimately optimize the data throughput for the decoding phase of KV Cache processes.
+
+## 2. Algorithm
+
+![FIR Setting-w100](./fig/alg.png)
+
+
+## 3. Hardware Design
+
+![FIR Setting-w100](./fig/hd.png)
