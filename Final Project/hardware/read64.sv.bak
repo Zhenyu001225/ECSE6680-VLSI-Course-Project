@@ -1,0 +1,16 @@
+
+
+module read_64(
+    input  logic clk, reset, we,
+    output reg [63:0] q
+);
+reg [63:0] reg = 64'b1100011;
+  always_ff@(posedge clk or posedge reset)
+    if (~reset) begin
+        q <= 0;
+    end
+    else begin
+	if(we)
+         c <= (a * b);
+    end
+endmodule
