@@ -24,3 +24,10 @@ To further enhance the performance of the algorithm, we have meticulously design
 
 We compared with some baselines:
 ![FIR Setting-w100](./fig/result.png)
+
+## 5. Next Step
+
+### Near memory processing for the low-dimension method.
+### Frequent KV pairs.
+### Metric to evaluate the speedup (time/query or token/second)
+
