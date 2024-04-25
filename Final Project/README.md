@@ -23,4 +23,4 @@ To further enhance the performance of the algorithm, we have meticulously design
 ## 4. Results
 
 We compared with some baselines:
-
+![FIR Setting-w100](./fig/result.png)
